@@ -1,5 +1,6 @@
 
 <script>
+	import ComeOnDown from '../components/come-on-down.svelte';
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 	const backgroundImage = 'price-is-right.jpg'
@@ -34,9 +35,10 @@
 		background-position: 50% 50%;
 		height: 100%;
 		width: 100%;
-		align-items: flex-start;
+		align-items: center;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
+		flex-direction: column;
 		padding-top: 3rem
 	}
 
@@ -62,4 +64,5 @@
 	"
 >
 	<h1>Is Bob Barker Still Alive?</h1>
+	<ComeOnDown />
 </section>
