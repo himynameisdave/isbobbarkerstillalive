@@ -7,7 +7,7 @@
 
 	const REFRESH_RATE = 16;
 	const loadAnim = tweened(100, {
-		duration: 700,
+		duration: 450,
 		easing: cubicOut
 	});
 
@@ -39,16 +39,28 @@
 		display: flex;
 		justify-content: flex-start;
 		flex-direction: column;
-		padding-top: 3rem
+		padding-top: 3rem;
 	}
 
 	h1 {
 		color: #f1f1f1;
 		text-align: center;
 		font-weight: 900;
-		font-size: 6rem;
-		text-shadow: 0 0 1rem #333;
+		font-size: 3rem;
+		line-height: 1;
+		text-shadow: 0 0 1rem #800080;
 		width: 90%;
+		z-index: 2;
+	}
+	@media screen and (min-width: 375px) {
+		h1 {
+			font-size: 4rem;
+		}
+	}
+	@media screen and (min-width: 480px) {
+		h1 {
+			font-size: 6rem;
+		}
 	}
 </style>
 
