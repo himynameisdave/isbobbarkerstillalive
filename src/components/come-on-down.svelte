@@ -88,7 +88,7 @@
 </style>
 
 <svelte:head>
-	<title>{status} | Is Bob Barker Still Alive?</title>
+	<title>He's {status} | Is Bob Barker Still Alive?</title>
 </svelte:head>
 
 <h3>
