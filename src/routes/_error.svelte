@@ -38,7 +38,7 @@
 	<title>Ruh Roe | Is Bob Barker Still Alive?</title>
 </svelte:head>
 
-<div style="background-image: url('bob-404.gif')">
+<div style="background-image: url('img/bob-404.gif')">
 	<h1>The price is wrong</h1>
 	<h2>{status} {error.message}</h2>
 	<a href="/">👈 Back to reality...</a>

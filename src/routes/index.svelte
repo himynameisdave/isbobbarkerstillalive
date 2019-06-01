@@ -3,7 +3,7 @@
 	import ComeOnDown from '../components/come-on-down.svelte';
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
-	const backgroundImage = 'price-is-right.jpg'
+	const backgroundImage = 'img/price-is-right.jpg'
 
 	const REFRESH_RATE = 16;
 	const loadAnim = tweened(100, {
